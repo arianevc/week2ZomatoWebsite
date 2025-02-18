@@ -1,0 +1,177 @@
+body{
+    overflow-x: hidden;
+}
+#head_container{
+    background-image: url(img/logo_bg_img.avif);
+    background-size: cover ;
+    /* background-position: 0px 290px 550px ; */
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+}
+.nav-item{
+    cursor: pointer;
+}
+
+.navbar-toggler-container
+{
+
+    margin-left: 295px;
+}
+.navbar-toggler-icon{
+    filter: invert(1);
+}
+
+#head_mid_container{
+    margin-top: 150px;
+}
+.dropdown .btn{
+    width: 100px;
+}
+.search-container {
+    max-width: 760px;
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  .choose{
+    /* min-width: 200px; */
+    /* padding: 0; */
+    margin: 0;
+  }
+  .choose:hover{
+    transform: scale(1.05);
+    transition: transform .5s ease;
+    cursor: pointer;
+  }
+  .choose_img{
+    height: 192px;
+    width: 550px;
+    object-fit: cover;
+}  
+ .card-title{
+    white-space: nowrap;
+}
+ .card-body{
+    max-width: 540px;
+}
+.collections_text{
+    position: relative;
+    left: 20px;
+}
+ .col_card {
+    max-width: 250px;
+}
+.colec_container img{
+     background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 85%);
+      /* z-index: 1; */
+
+ }
+ .col_card{
+    cursor: pointer;
+ }
+ .places_text{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+ }
+ .popular_head{
+    position: relative;
+    left: 30px;
+ }
+ .custom-card {
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+.custom-card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.custom-card a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.places-count {
+    color: gray;
+    font-size: 14px;
+}
+.get_zomato_app{
+    background-color: rgb(255, 251, 247);
+}
+.form-check-input:checked{
+    background-color: red;
+    border: .5px;
+    border-color:red ;
+}
+.input_field{
+    max-width: 625px;
+    height: 50px;
+}
+.input_field input::placeholder{
+    color: #676161;
+}
+.input_field button{
+    white-space: nowrap;
+}
+.social_img img{
+    max-width: 137px;
+}
+.accordion-body {
+    color: #9f9c9c;
+}
+.accordion-body a{
+    text-decoration: none;
+    color: #9f9c9c;
+
+}
+.accordion-body a:hover{
+    color: #222020;
+}
+.footer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+}
+.footer a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer .footer-heading {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.social-icons a {
+    font-size: 18px;
+    margin-right: 10px;
+    color: black;
+}
+.footer-bottom {
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+    padding-top: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+@media (max-width: 991px) { /* Applies only on screens smaller than lg (992px) */
+    .custom-menu {
+      background-color: white !important; 
+      padding: 10px;
+    }
+    .custom-menu .nav-link {
+      color: black !important; /* Make text black when background is white */
+    }
+    .choose_img {
+        width: 100%;  /* Makes it responsive */
+        height: 192px; /* Maintains aspect ratio */
+      }
+  }
